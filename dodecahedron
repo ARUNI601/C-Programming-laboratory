@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    double a;
+    double s;
+    scanf("%lf",&a);
+    s=3*sqrt(25+10*sqrt(5))*a*a;
+    printf("surface area:%.2lf,s");
+    return 0;
+}
+
+
+
+
