@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    char var;
+    scanf(" %c",&var);
+    if((var>='A' && var<='Z') || (var>='a' && var<='z')) 
+    {
+        printf("it is alphabet");
+    }
+    else
+    {
+        printf("it is not a alphabet");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
