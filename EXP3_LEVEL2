@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    char a,i,j;
+    char alpha='A';
+    scanf("%d",&n);
+    for (i=alpha;i<('A'+n);i++)
+    {
+        for(j=alpha;j<=i;j++)
+        {
+            printf("%c",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
