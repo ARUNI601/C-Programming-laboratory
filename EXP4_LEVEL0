@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int counto=0,counte=0,n,i;
+    scanf("%d",&n);
+    int arr[n];
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        if(arr[i]%2==0)
+        {
+            counte++;
+        }
+        else
+        {
+            counto++;
+        }
+    }
+    printf("odd count:%d\n",counto);
+    printf("even count:%d",counte);
+    return 0;
+}
